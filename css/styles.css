@@ -52,7 +52,8 @@ img {
   align-items: center;
 }
 .container {
-  width: 1158px;
+  min-width: 320px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -62,8 +63,30 @@ img {
   display: flex;
   align-items: center;
 }
+/*---------------MOBILE---------------------*/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 249px;
+}
+.header-logo span {
+  color: var(--logo-color);
+}
+.burger-btn {
+  border: none;
+  background-color: var(--background-color);
+}
+.header-menu {
+  gap: 40px;
+}
 
-/*--header--*/
+/*----------------------------header---------------------*
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -140,7 +163,7 @@ img {
 .header-address-link:focus {
   color: var(--header-menu-link);
 }
-/*--hero--*/
+/*--------------------hero------------------------------*
 .hero {
   max-width: 1440px;
   margin-right: auto;
@@ -211,7 +234,7 @@ img {
 .hero-btn:focus {
   background-color: var(--header-menu-link);
 }
-/*----About us----*/
+/*-----------------------About us----------------------*
 .info {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -252,7 +275,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-/*----Servise----*/
+/*-----------------------Servise-------------------------*
 .servise {
   padding-bottom: 120px;
 }
@@ -277,7 +300,7 @@ img {
   margin-right: auto;
 }
 
-/*----Team----*/
+/*--------------------------Team--------------------------*
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -358,7 +381,7 @@ img {
 .team-social {
   fill: var(--fooetr-color);
 }
-/*-------CASTOMERS--------*/
+/*--------------------------CASTOMERS---------------------*
 .castom {
   padding: 120px 0;
 }
@@ -409,7 +432,7 @@ img {
   fill: currentColor;
 }
 
-/*----footer----*/
+/*---------------------------footer---------------------*
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
