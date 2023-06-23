@@ -52,18 +52,19 @@ img {
   align-items: center;
 }
 .container {
-  min-width: 320px;
+  min-width: 290px;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
-.header-navigation {
+/*.header-navigation {
   display: flex;
   align-items: center;
 }
-/*---------------MOBILE---------------------*/
+
+/*----------------------------header---------------------*/
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -78,90 +79,15 @@ img {
 .header-logo span {
   color: var(--logo-color);
 }
-.burger-btn {
-  border: none;
-  background-color: var(--background-color);
-}
-.header-menu {
-  gap: 40px;
-}
-
-/*----------------------------header---------------------*/
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-.header-logo span {
-  color: var(--logo-color);
-}
-.header-menu {
-  display: flex;
-  gap: 40px;
-}
-.header-menu-item {
-  padding: 24px 0;
-}
-.header-menu-link {
-  position: relative;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 27px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: var(--header-menu-link);
-}
-.current {
-  position: relative;
-  color: #404bbf;
-}
-.current::after {
-  content: "";
-  position: absolute;
-  display: block;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  width: 100%;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-.header-address {
-  font-style: normal;
-  margin-left: auto;
-}
+.header-menu,
 .header-address-menu {
+  display: none;
+}
+.menu-toggle {
   display: flex;
   align-items: center;
-  gap: 40px;
-}
-.header-address-item {
-}
-.header-address-link {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--header-adress-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-address-link:hover {
-  color: var(--header-menu-link);
-}
-.header-address-link:focus {
-  color: var(--header-menu-link);
+  border: none;
+  background-color: #ffffff;
 }
 /*--------------------hero------------------------------*/
 .hero {
