@@ -48,6 +48,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
+  min-height: 70px;
   display: flex;
   align-items: center;
 }
@@ -56,10 +57,9 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
 
-/*.header-navigation {
+.header-navigation {
   display: flex;
   align-items: center;
 }
@@ -88,6 +88,10 @@ img {
   align-items: center;
   border: none;
   background-color: #ffffff;
+}
+.menu-toggle {
+  display: block;
+  margin-left: auto;
 }
 /*--------------------hero------------------------------*/
 .hero {
