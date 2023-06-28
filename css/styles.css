@@ -85,11 +85,6 @@ img {
 }
 /*--------Mobile--Menu----------*/
 .mob-menu {
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffff;
 }
 .btn-burger {
   border: none;
@@ -105,7 +100,6 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: var(--cornflower, #e7e9fc);
   margin-left: auto;
-  padding: 24px 24px 32px;
 }
 .close-burger-icon {
   fill: #2e2f42;
