@@ -305,6 +305,7 @@
     max-width: 264px;
     dispaly: none;
     flex-direction: unset;
+    margin-bottom: unset;
   }
   .social-footer-title {
     padding-right: 112px;
