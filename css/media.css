@@ -2,6 +2,9 @@
   .container {
     max-width: 428px;
   }
+  .social-list-menu {
+    gap: 56px;
+  }
   /*-----HERO-------*/
 
   /*-----INFO--------*/
@@ -258,7 +261,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero-img.jpg);
+        url(../images/hero-img-2x.jpg);
     }
   }
   .hero-title {

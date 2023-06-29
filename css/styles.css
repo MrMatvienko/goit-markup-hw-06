@@ -90,7 +90,12 @@ img {
   width: 100%;
   height: 100%;
   background-color: #ffffff;
+  padding: 24px 24px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .btn-burger {
   border: none;
   background-color: transparent;
@@ -100,14 +105,61 @@ img {
   stroke: #2e2f42;
 }
 .close-burger-menu {
+  display: block;
   border-radius: 50%;
-  color: #e7e9fc;
+  color: #ffffff;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: var(--cornflower, #e7e9fc);
+  margin-bottom: 32px;
   margin-left: auto;
 }
 .close-burger-icon {
   fill: #2e2f42;
+}
+.mob-menu-list {
+}
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mob-menu-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.mob-address {
+}
+.mob-address-menu {
+  margin-bottom: 48px;
+}
+.mob-address-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mob-address-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.mob-address-link1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #434455;
+}
+.social-list-menu {
+  display: flex;
+  gap: 33px;
 }
 /*--hero--*/
 .hero {
