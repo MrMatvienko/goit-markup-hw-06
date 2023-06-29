@@ -47,6 +47,9 @@
   .btn-burger {
     display: none;
   }
+  .mob-menu {
+    display: none;
+  }
   /*--header--*/
   .header-menu {
     display: flex;
