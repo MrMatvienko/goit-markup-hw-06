@@ -104,7 +104,7 @@
   }
   .header-address-link {
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-adress-color);
@@ -227,6 +227,17 @@
   .subscribe-btn {
     margin: unset;
   }
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    height: unset;
+    max-height: none;
+    max-width: none;
+    overflow: unset;
+  }
+  .modal-field {
+    width: 360px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -246,9 +257,13 @@
     align-items: center;
     gap: 24px;
   }
+  .header-address-link {
+    font-size: 16px;
+  }
 
   /*---HERO------*/
   .hero {
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -395,7 +410,6 @@
   }
   .footer-text {
     max-width: 264px;
-    dispaly: none;
     flex-direction: unset;
     margin-bottom: unset;
   }
@@ -404,6 +418,7 @@
     margin-bottom: 16px;
   }
   .footer-list {
+    margin-bottom: unset;
   }
   .subscribe {
     width: unset;
